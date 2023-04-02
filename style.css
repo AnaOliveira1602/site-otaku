@@ -1,0 +1,177 @@
+body{
+  background: linear-gradient(to right, rgb(248, 4, 4) 0%, rgb(248, 4, 4) 13%, white 13%, white 87%, rgb(248, 4, 4) 87%, rgb(248, 4, 4) 100%);
+}
+  h1{
+      text-align: center;
+      font-family:'Times New Roman', Times, serif;
+      color:black
+  }
+ 
+  p{
+      text-align: center;
+      color:maroon
+  }
+     
+
+
+
+.card{
+  position: absolute;
+  top: 400px;
+  left: 300px;
+  display:grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 195px 1px 50px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 20px;
+  background: pink;
+  box-shadow: 5px 5px 20px
+  rgba(0,0,0,2);
+  font-family:'Fasthand', cursive;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 20px;
+  height: 500px;
+  width: 300px;
+}
+
+.card-image {
+  grid-area: image;
+  background: url("imagens/Sasaki-and-Miyano-ep12-e1649004355762.webp");
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-size:cover;
+}
+
+.posicao{
+    text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.08);
+  box-shadow: 3px 3px 8px black;
+}
+
+
+
+
+
+.card2{
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  display:grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 195px 1px 50px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 20px;
+  background: pink;
+  box-shadow: 5px 5px 20px
+  rgba(0,0,0,2);
+  font-family:'Fasthand', cursive;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 20px;
+  height: 500px;
+  width: 300px;
+}
+
+.card2-image {
+  grid-area: image;
+  background: url("imagens/b5dc286fb64f7bdc8eaa47e36f079c74.jpe");
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-size:cover;
+}
+
+.posicao2{
+    text-align: center;
+}
+
+.card2:hover {
+  transform: scale(1.08);
+  box-shadow: 3px 3px 8px black;
+}
+
+
+
+
+
+.card3{
+  position: absolute;
+  top: 1000px;
+  left: 300px;
+  display:grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 195px 1px 50px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 20px;
+  background: pink;
+  box-shadow: 5px 5px 20px
+  rgba(0,0,0,2);
+  font-family:'Fasthand', cursive;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 20px;
+  height: 500px;
+  width: 300px;
+}
+
+.card3-image {
+  grid-area: image;
+  background: url("imagens/EfaKUXGWULuDpnL0Ai0eujhs.webp");
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-size:cover;
+}
+
+.posicao3{
+    text-align:center;
+}
+
+.card3:hover {
+  transform: scale(1.08);
+  box-shadow: 3px 3px 8px black;
+}
+
+
+
+
+.card4{
+  position: absolute;
+  top: 1000px;
+  left: 700px;
+  display:grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 195px 1px 50px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 20px;
+  background: pink;
+  box-shadow: 5px 5px 20px
+  rgba(0,0,0,2);
+  font-family:'Fasthand', cursive;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 20px;
+  height: 500px;
+  width: 300px;
+}
+
+
+.card4-image {
+  grid-area: image;
+  background: url("imagens/img61c484004d1ea1.56703757.jpeg");
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-size:cover;
+}
+
+
+.posicao4{
+    text-align: center;
+}
+
+.card4:hover {
+  transform: scale(1.08);
+  box-shadow: 3px 3px 8px black;
+}
