@@ -1,5 +1,8 @@
 body{
-  background: linear-gradient(to right, rgb(248, 4, 4) 0%, rgb(248, 4, 4) 13%, white 13%, white 87%, rgb(248, 4, 4) 87%, rgb(248, 4, 4) 100%);
+  /*background: linear-gradient(to right, rgb(248, 4, 4) 0%, rgb(248, 4, 4) 13%, white 13%, white 87%, rgb(248, 4, 4) 87%, rgb(248, 4, 4) 100%);*/
+  background-color: blanchedalmond;
+  margin: 0 auto;
+
 }
   h1{
       text-align: center;
@@ -12,8 +15,18 @@ body{
       color:maroon
   }
      
+.fundo{
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100%;
+}
 
-
+.section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
 
 .card{
   position: absolute;
@@ -33,11 +46,12 @@ body{
   margin: 20px;
   height: 500px;
   width: 300px;
+  overflow: auto;
 }
 
 .card-image {
   grid-area: image;
-  background: url("imagens/Sasaki-and-Miyano-ep12-e1649004355762.webp");
+  background: url("imagens/Los-mejores-sitios-web-para-aficionados-al-anime-1.jpg");
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   background-size:cover;
